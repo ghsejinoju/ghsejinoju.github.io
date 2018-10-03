@@ -1,0 +1,29 @@
+#msg {
+  
+  width: 1200px;
+  height: 1000px;
+  background: #E0E0E0;
+
+}
+
+#object {
+  margin: 0;
+  padding: 5em;
+  border: solid 0.2em #000; 
+  background: #E0E0E0;
+  opacity: 0.8;
+  animation-name: revolve;
+  animation-duration: 2s;
+  animation-iteration-count: infinite
+}
+
+@keyframes revolve {
+  0% {transform : rotate(20deg);}
+  10% {transform : rotate(30deg);}
+  20% {transform : rotate(40deg);}
+  30% {transform : rotate(50deg);}
+  40% {transform : rotate(70deg);}
+  50% {transform : rotate(100deg);}
+  70% {transform : rotate(140deg);}
+  100% {transform : rotate(360deg);}
+}
