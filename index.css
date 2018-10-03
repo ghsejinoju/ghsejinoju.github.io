@@ -1,9 +1,7 @@
 #msg {
-  
   width: 1920px;
   height: 1080px;
   background: #E0E0E0;
-
 }
 
 #object {
@@ -26,4 +24,8 @@
   50% {transform : rotate(100deg);}
   70% {transform : rotate(140deg);}
   100% {transform : rotate(360deg);}
+}
+
+#coding sources_ANCIENT_png/A_UI title.png {
+   width: 1920px;
 }
