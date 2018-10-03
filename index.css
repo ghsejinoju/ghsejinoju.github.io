@@ -28,4 +28,6 @@
 
 #coding sources_ANCIENT_png/A_UI title.png {
    width: 1920px;
+   margin: 0;
+   padding: 0;
 }
